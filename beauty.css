@@ -9,6 +9,10 @@
 body {
     background:blue;
     color:black;
+    animation: k 2sec infinite ;
+    @keyframes k { to{ background: green}
+        
+    }
 }
 
 header {
