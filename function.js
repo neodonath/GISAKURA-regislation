@@ -46,13 +46,14 @@ function loginAdmin() {
         document.getElementById("passkey").value = "";
         document.getElementById("loginMessage").textContent = "";
         openDashboard("admin");
-        alert("welcome admin");
+       
     } else {
         document.getElementById("loginMessage").textContent =
             "Incorrect passkey. Please try again.";
 
         document.getElementById("loginMessage").style.color = "red";
     }
+     alert("welcome admin");
 }
 
 function openDashboard(role) {
