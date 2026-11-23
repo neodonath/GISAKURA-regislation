@@ -26,7 +26,7 @@ document.getElementById("adminChoice").addEventListener("click", () => {
     document.getElementById("passkeyBox").hidden = false;
     document.getElementById("passkey").focus();
     document.getElementById("loginMessage").textContent = "";
-    alert("welcome admin");
+    
 });
 
 document.getElementById("guestChoice").addEventListener("click", () => {
@@ -46,6 +46,7 @@ function loginAdmin() {
         document.getElementById("passkey").value = "";
         document.getElementById("loginMessage").textContent = "";
         openDashboard("admin");
+        alert("welcome admin");
     } else {
         document.getElementById("loginMessage").textContent =
             "Incorrect passkey. Please try again.";
