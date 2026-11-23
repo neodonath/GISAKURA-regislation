@@ -26,6 +26,7 @@ document.getElementById("adminChoice").addEventListener("click", () => {
     document.getElementById("passkeyBox").hidden = false;
     document.getElementById("passkey").focus();
     document.getElementById("loginMessage").textContent = "";
+    alert("welcome admin");
 });
 
 document.getElementById("guestChoice").addEventListener("click", () => {
