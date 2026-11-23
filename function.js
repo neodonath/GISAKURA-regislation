@@ -5,7 +5,7 @@
 
 // CHANGE YOUR ADMINISTRATOR PASSKEY HERE
 const ADMIN_PASSKEY = "GISAKURA2026";
-alert("welcome to gs gisakura website")
+alert("welcome to gs gisakura website");
 
 // DATABASE
 let students = JSON.parse(
